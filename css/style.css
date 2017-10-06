@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css?family=Bowlby+One|Lobster');
+@import url(https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css);
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700);
+@import url('https://fonts.googleapis.com/css?family=Anton|Poppins');
+@import url('https://fonts.googleapis.com/css?family=Bowlby+One|Lobster|Oxygen');
+
+*{
+    font-family: 'Anton', sans-serif;
+}
+
+a{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Global Button Styles */
+a.animated-button:link, a.animated-button:visited {
+	position: relative;
+	display: block;
+	margin: 30px auto 0;
+	padding: 14px 15px;
+	color: #fff;
+	font-size:14px;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	overflow: hidden;
+	letter-spacing: .08em;
+	border-radius: 0;
+	text-shadow: 0 0 1px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.2);
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	transition: all 1s ease;
+}
+
+a.animated-button:link:after, a.animated-button:visited:after {
+	content: "";
+	position: absolute;
+	height: 0%;
+	left: 50%;
+	top: 50%;
+	width: 150%;
+	z-index: -1;
+	-webkit-transition: all 0.75s ease 0s;
+	-moz-transition: all 0.75s ease 0s;
+	-o-transition: all 0.75s ease 0s;
+	transition: all 0.75s ease 0s;
+}
+
+a.animated-button:link:hover, a.animated-button:visited:hover {
+	color: #212152;
+	text-shadow: none;
+}
+
+a.animated-button:link:hover:after, a.animated-button:visited:hover:after {
+	height: 450%;
+}
+
+a.animated-button:link, a.animated-button:visited {
+	position: relative;
+	display: block;
+	margin: 30px auto 0;
+	padding: 14px 15px;
+	color: #fff;
+	font-size:14px;
+	border-radius: 0;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	overflow: hidden;
+	letter-spacing: .08em;
+	text-shadow: 0 0 1px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.2);
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	transition: all 1s ease;
+}
+
+/* Victoria Buttons */
+
+
+a.animated-button.sandy-one {
+	border: 2px solid #AEA8D3;
+	color: #FFF;
+}
+a.animated-button.sandy-one:after {
+	border: 3px solid #AEA8D3;
+	opacity: 0;
+	-moz-transform: translateX(-50%) translateY(-50%);
+	-ms-transform: translateX(-50%) translateY(-50%);
+	-webkit-transform: translateX(-50%) translateY(-50%);
+	transform: translateX(-50%) translateY(-50%);
+	
+}
+a.animated-button.sandy-one:hover:after {
+	height: 120% !important;
+	opacity: 1;
+	color: blue;
+}
+a.animated-button.sandy-one {
+	border: 2px solid #AEA8D3;
+	color: black;
+}
+
+.box1{
+    margin-left: 100px;
+    width: 100px;
+}
+
+.seat{
+    width: 50px;
+}
+
+table, tr, td {
+    padding: 8px;
+    line-height: 1.42857143;
+    vertical-align: top;
+    border-top: 1px solid #ddd;
+}
+table {
+    border-spacing: 15px;
+}
+
+tr, td {
+    background-color: lightblue;
+    margin-bottom: 15px;
+    border-radius: 86px;
+    border-width: 0px;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    border-image: initial;
+}
+/* .background2{
+    background-image: url(../img/sobre.png);
+    background-size: cover;
+} */
+body{
+    background-image: url(../img/fondomap.jpg);
+    background-size: cover;
+}
+section{
+    margin-top: 60px;
+}
+
+h1,h2{
+    text-align: center;
+    color: white;
+}
+
+h1{
+    font-family: 'Bowlby One', cursive;
+    padding-top: 30px;
+}
+
+h2{
+    font-family: 'Lobster', cursive;
+}
+
+header{
+    margin-top: 60px;
+    background: #142F52;
+    height: 140px;
+}
+
+.background2{
+    background-color: rgba(20, 110, 133, 0.35);
+    padding: 30px;
+}
+
+.div1{
+    margin-top: 10px;
+    background: rgba(105, 105, 153, 0.5);
+    margin-left: 40px;
+}
+
+.seat{
+    color: #2A2A4B;
+}
+
+h4{
+    font-family: 'Oxygen', sans-serif;
+}
